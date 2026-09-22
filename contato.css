@@ -61,6 +61,20 @@ form label, form legend{
 .checkbox{
     margin: 20px 0;
 }
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background-color: #555555; 
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: solid 1px #000000;
+    padding: 8px 15px;
+}
 
 .enviar{
     width: 40%;
@@ -71,7 +85,14 @@ form label, form legend{
    font-size: 18px;
    border: none;
    border-radius: 5px;
+   transition: 1s;
 }
+
+.enviar:hover{
+    background-color: darkorange;
+   transform: rotate(70deg) scale(1.2);
+}
+
 footer{
     text-align: center;
     background-image: url(./img/bg.jpg);
